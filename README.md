@@ -1,5 +1,5 @@
 # C# Kurs
-Dieser Kurs soll eine Einleitung in C# bereitstellen und im Besonderen Abläufe des Programms zu erdenken, bevor es umgesetzt wird. Das ermöglicht eine Vorabschätzung des Aufwandes und erforderlicher Resourcen und eine effiziente Programmierung.
+Dieser Kurs ist eine Einführungsaufgabe für die Programmierung mit C# Basiswissen. Der Kurs ist so aufgebaut, dass er Aufgaben stellt, die zu erst im Kopf bearbeitet und durchgespielt werden, bevor die eigentliche Umsetzung in der Programmierumgebung stattfindet. 
 
 In diesem Kurs wirst du mit einer Aufgabenstellung konfrontiert. Der Ablauf, wie das programmiertechnisch zu realisieren ist wird dann zuerst beschrieben (Papier, Word, etc) und diskutiert. Erst danach wird die Aufgabe auch mit dem Visual Studio absolviert. Nachdem die Aufgabe gelöst ist, gibt es mehrere Erweiterungsaufgaben, die jeweils auf die vorherige ausbauen. Besonders im Berufsalltag als Programmierer muss man immer wieder bereits bestehenden Code verstehen und verändern um neue Ziele zu erreichen.
 
@@ -40,6 +40,3 @@ Das Programm soll so verändert werden: Nachdem der Benutzer ein Wort eingegeben
 
 ## Aufgabe VII
 Das Programm soll so verändert werden: Nach dem zehnten eingegebenen Wort wird die Summe der Punkte errechnet. Diese Punkte werden mit einer Highscore-Liste abgeglichen, welche in einer Datei im %localappdata%-Verzeichnis abgelegt wird. Dabei wird direkt geprüft, an welcher Stelle er gelandet ist. Er erhält nun auch die Möglichkeit, sich in diese Highscore-Liste mit selbst gewähltem Namen einzutragen. Die Highscore-Liste enthält immer nur die besten zehn Ergebnisse. Existiert die Datei noch nicht, enthält sie ausschließlich 0-Punkte-Ergebnisse.
-
-
-
