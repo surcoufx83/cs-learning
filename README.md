@@ -38,13 +38,13 @@ Das Programm soll so verändert werden: Das Programm stoppt nun die Zeit zwische
 ## Aufgabe VII
 Das Programm soll so verändert werden: Nachdem der Benutzer ein Wort eingegeben hat, wird ein Punktewert errechnet. Er erhält 100 Punkte, wenn er es ohne Fehler in genau 3 Sekunde eingegeben hat. Er erhält mehr Punkte wenn er schneller war, bzw. weniger, wenn er langsamer war entsprechend: (sekunden - 3) * 5; wobei sekunden bedeutet sekunden inkl. millisekunden als Nachkommastellen. Pro falsch eingegebenem Buchstaben werden 20 Punkte abgezogen. Die Punktzahl kann 0 nicht unterschreiten. Die Punkte werden zusätzlich am Ende ausgegeben.
 
-## Aufgabe VII
+## Aufgabe VIII
 Das Programm soll so verändert werden: Nach dem zehnten eingegebenen Wort wird die Summe der Punkte errechnet. Diese Punkte werden mit einer Highscore-Liste abgeglichen, welche in einer Datei im %localappdata%-Verzeichnis abgelegt wird. Dabei wird direkt geprüft, an welcher Stelle er gelandet ist. Er erhält nun auch die Möglichkeit, sich in diese Highscore-Liste mit selbst gewähltem Namen einzutragen. Die Highscore-Liste enthält immer nur die besten zehn Ergebnisse. Existiert die Datei noch nicht, enthält sie ausschließlich 0-Punkte-Ergebnisse.
 
-## Aufgabe VIII 
+## Aufgabe IX 
 Das Programm soll nun zu allererste ein Menü ausgeben. Als Optionen sollen dem Anwender die Optionen "Neues Spiel", "Hoghscores", "Beenden" zur Auswahl stehen. Bei Auswahl von Neues Spiel beginnt das Spiel, bei Auswahl von Highscore wird die Liste der besten Ergebnisse ausgegeben werden und beenden beendet das Programm. Nach einem Spiel (10 Wörter) wird anschließend wieder das Hauptmenü ausgegeben.
 
-## Aufgabe IX
+## Aufgabe X
 Das Programm soll nun mitzählen, wie viele Spiele bereits gespielt wurden. Der Zähler wird im Hauptmenü angezeigt. Der Zähler wird nur für vollständige Spiele (10 Worte) erhöht. 
 
 
