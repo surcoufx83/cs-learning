@@ -42,7 +42,7 @@ Das Programm soll so verändert werden: Nachdem der Benutzer ein Wort eingegeben
 Das Programm soll so verändert werden: Nach dem zehnten eingegebenen Wort wird die Summe der Punkte aller 10 Versuche ausgegeben. Diese Punkte werden mit einer Highscore-Liste abgeglichen, welche in einer Datei im Benutzer-Verzeichnis abgelegt wird. Dabei wird direkt geprüft, an welcher Stelle er gelandet ist. Er erhält nun auch die Möglichkeit, sich in diese Highscore-Liste mit selbst gewähltem Namen einzutragen. Die Highscore-Liste enthält immer nur die besten zehn Ergebnisse. Existiert die Datei noch nicht, enthält sie ausschließlich 0-Punkte-Ergebnisse.
 
 ## Aufgabe IX 
-Das Programm soll nun zu allererste ein Menü ausgeben. Als Optionen sollen dem Anwender die Optionen "Neues Spiel", "Hoghscores", "Beenden" zur Auswahl stehen. Bei Auswahl von Neues Spiel beginnt das Spiel, bei Auswahl von Highscore wird die Liste der besten Ergebnisse ausgegeben werden und beenden beendet das Programm. Nach einem Spiel (10 Wörter) wird anschließend wieder das Hauptmenü ausgegeben.
+Das Programm soll nun zu allererste ein Menü ausgeben. Als Optionen sollen dem Anwender die Optionen "Neues Spiel", "Highscores", "Beenden" zur Auswahl stehen. Bei Auswahl von Neues Spiel beginnt das Spiel, bei Auswahl von Highscore wird die Liste der besten Ergebnisse ausgegeben werden und beenden beendet das Programm. Nach einem Spiel (10 Wörter) wird anschließend wieder das Hauptmenü ausgegeben.
 
 ## Aufgabe X
 Das Programm soll nun mitzählen, wie viele Spiele bereits gespielt wurden. Der Zähler wird im Hauptmenü angezeigt. Der Zähler wird nur für vollständige Spiele (10 Worte) erhöht. 
