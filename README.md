@@ -30,7 +30,7 @@ Das bestehende Konsolenprogramm soll nun so abgeändert werden, dass das Program
 Das bestehende Konsolenprogramm soll so abgeändert werden, dass es nicht mehr ein starres Wort vorgibt, sondern aus einer [Liste von 100 Wörtern](aufgabe-4-wortliste) eines zufällig auswählt.
 
 ## Aufgabe V
-Das Programm soll so verändert werden: Das Programm wird nun immer ein neues Wort in die Konsole ausgegeben, welches der Anwender dann eingeben soll. Auch das wird wieder auf Richtigkeit geprüft (wie zuvor beim ersten Wort auch). Das Programm beendet sich nun erst, wenn der Benutzer das Wort "quit" eingegeben und mit der Enter-Taste bestätigt hat.
+Das Programm soll so verändert werden: Das Programm wird nun immer ein neues Wort in die Konsole ausgegeben, welches der Anwender dann eingeben soll. Auch das wird wieder auf Richtigkeit geprüft (wie zuvor beim ersten Wort auch). Das Programm beendet sich nun erst, wenn der Benutzer das Wort "quit" oder nichts eingegeben und mit der Enter-Taste bestätigt hat.
 
 ## Aufgabe VI
 Das Programm soll so verändert werden: Das Programm stoppt nun die Zeit zwischen Eingabe des ersten Zeichen des Wortes durch das Programm und dem Abschließen des Wortes. Die benötigte Zeit in Sekunden und Millisekunden wird ebenfalls dem Benutzer angezeigt.
