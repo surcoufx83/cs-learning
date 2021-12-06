@@ -27,7 +27,10 @@ namespace aufgabe_03
             ConsoleKeyInfo keyInfo = Console.ReadKey();
             while (!breakkeys.Contains(keyInfo.Key) && !breakchars.Contains(keyInfo.KeyChar))
             {
-                word += keyInfo.KeyChar;
+                if (keyInfo.Key == ConsoleKey.Backspace)
+                    word = word.Substring(0, word.Length - 1);
+                else
+                    word += keyInfo.KeyChar;
                 keyInfo = Console.ReadKey();
             }
             Console.WriteLine();

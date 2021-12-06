@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Linq;
 
-namespace aufgabe_04
+namespace aufgabe_06
 {
     internal class Program
     {
 
+        static Random random;
         static ConsoleKey[] breakkeys = new ConsoleKey[]
         {
             ConsoleKey.Enter,
@@ -33,12 +34,21 @@ namespace aufgabe_04
 
         static void Main(string[] args)
         {
-            Random random = new Random();
-            expectedWord = wordlist[random.Next(wordlist.Length)];
+            random = new Random();
             Console.WriteLine("Hallo!\r\n");
-            Console.WriteLine("Bitte gib folgendes Wort ein und bestätige mit Enter: " + expectedWord);
+            while (cycle() == true)
+            {
+
+            }
+        }
+
+        static bool cycle()
+        {
+            expectedWord = wordlist[random.Next(wordlist.Length)];
+            Console.WriteLine("Bitte gib folgendes Wort ein: " + expectedWord);
             string word = "";
             ConsoleKeyInfo keyInfo = Console.ReadKey();
+            DateTime start = DateTime.Now;
             while (!breakkeys.Contains(keyInfo.Key) && !breakchars.Contains(keyInfo.KeyChar))
             {
                 if (keyInfo.Key == ConsoleKey.Backspace)
@@ -47,9 +57,16 @@ namespace aufgabe_04
                     word += keyInfo.KeyChar;
                 keyInfo = Console.ReadKey();
             }
+            DateTime end = DateTime.Now;
+            TimeSpan timeSpan = end - start;
+
             Console.WriteLine();
             Console.Write("Deine Eingabe: " + word + " - ");
-            if (word == expectedWord)
+            if (word.ToLower() == "quit" || word == "")
+            {
+                return false;
+            }
+            else if (word == expectedWord)
             {
                 Console.WriteLine("Das ist korrekt!");
             }
@@ -57,7 +74,10 @@ namespace aufgabe_04
             {
                 Console.WriteLine("Das ist falsch!");
             }
-            Console.ReadKey();
+            Console.WriteLine("Du hast " + Math.Round( timeSpan.TotalSeconds, 2) + " Sekunden benötigt.");
+            Console.WriteLine();
+            return true;
         }
+
     }
 }
