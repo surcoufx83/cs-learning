@@ -33,7 +33,7 @@ Das bestehende Konsolenprogramm soll so abgeändert werden, dass es nicht mehr e
 Das Programm soll so verändert werden: Das Programm wird nun immer ein neues Wort in die Konsole ausgegeben, welches der Anwender dann eingeben soll. Auch das wird wieder auf Richtigkeit geprüft (wie zuvor beim ersten Wort auch). Das Programm beendet sich nun erst, wenn der Benutzer das Wort "quit" eingegeben und mit der Enter-Taste bestätigt hat.
 
 ## Aufgabe VI
-Das Programm soll so verändert werden: Das Programm stoppt nun die Zeit zwischen Ausgabe des Wortes durch das Programm und dem Drücken der Entertaste, nachdem der Anwender das Wort eingegeben hat. Die benötigte Zeit in Sekunden und Millisekunden wird ebenfalls dem Benutzer angezeigt.
+Das Programm soll so verändert werden: Das Programm stoppt nun die Zeit zwischen Eingabe des ersten Zeichen des Wortes durch das Programm und dem Abschließen des Wortes. Die benötigte Zeit in Sekunden und Millisekunden wird ebenfalls dem Benutzer angezeigt.
 
 ## Aufgabe VII
 Das Programm soll so verändert werden: Nachdem der Benutzer ein Wort eingegeben hat, wird ein Punktewert errechnet. Er erhält 100 Punkte, wenn er es ohne Fehler in genau 3 Sekunde eingegeben hat. Er erhält mehr Punkte wenn er schneller war, bzw. weniger, wenn er langsamer war entsprechend: (sekunden - 3) * 5; wobei sekunden bedeutet sekunden inkl. millisekunden als Nachkommastellen. Pro falsch eingegebenem Buchstaben werden 20 Punkte abgezogen. Die Punktzahl kann 0 nicht unterschreiten. Die Punkte werden zusätzlich am Ende ausgegeben.
