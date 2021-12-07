@@ -140,7 +140,7 @@ Es werden immer nur die zehn Besten gespeichert.
 Das Programm soll nun zu allererst ein Menü ausgeben. Als Optionen sollen dem Anwender 
 die Optionen "Neues Spiel", "Highscores", "Beenden" zur Auswahl stehen. Bei Auswahl von 
 "Neues Spiel" beginnt das Spiel, bei Auswahl von "Highscores" wird die Liste der besten 
-Ergebnisse ausgegeben werden und "Beenden" beendet das Programm. Nach einem Spiel (10 Wörter) 
+Ergebnisse ausgegeben und "Beenden" beendet das Programm. Nach einem Spiel (10 Wörter) 
 wird anschließend wieder das Hauptmenü ausgegeben.
 Wie die Auswahl stattfindet bleibt dir überlassen. Eine einfache Möglichkeit ist jedem der
 Menüpunkte eine Zahl zuzuweisen (1-3) und wenn der Benutzer die entsprechende Taste drückt,
