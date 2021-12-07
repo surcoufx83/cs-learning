@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace aufgabe_09a
+namespace aufgabe_09b
 {
     internal class Program
     {
