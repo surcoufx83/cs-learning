@@ -165,6 +165,12 @@ Die Werte werden im Hauptmenü angezeigt. Es werden nur Spiele berücksichtigt, 
 sind, also alle 10 Wörter eingegeben wurden und es ist irrelevant, ob etwas in die 
 Highscore-Liste eingetragen wurde oder nicht.
 
+## Aufgabe 12
+Nach Abschluss des zehnten Wortes, bevor die Punktzahl angezeigt wird, werden die zehn eingegebenen
+Wörter aufgelistet und darin werden farblich die richtigen und falschen Buchstaben markiert: 
+grüne Buchstaben für richtige und rote für falsch eingegebene. Jeweils hinter den Wörtern wird
+die benötigte Zeit, die Anzahl der Fehler und die errechnete Punktzahl angezeigt.
+
 ## Aufgabe x
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
 
@@ -184,3 +190,4 @@ erhalten. Schau nicht in die Beispiele, wenn du noch nicht fertig bist.
 - [Aufgabe 9b](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09b/aufgabe-09b/Program.cs)
 - [Aufgabe 10](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-10/aufgabe-10/Program.cs)
 - [Aufgabe 11](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-11/aufgabe-11/Program.cs)
+- [Aufgabe 12](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-12/aufgabe-12/Program.cs)
