@@ -164,11 +164,17 @@ wie bisher.
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
 
 # Beispiellösungen
+Sei ehrlich zu Dir! Nutze die folgenden Beispiele nur, um einen Vergleich zu deiner eigenen Lösung zu 
+erhalten. Schau nicht in die Beispiele, wenn du noch nicht fertig bist. 
+
 - [Aufgabe 1](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-01/aufgabe-01/Program.cs)
 - [Aufgabe 2](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-02/aufgabe-02/Program.cs)
 - [Aufgabe 3](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-03/aufgabe-03/Program.cs)
 - [Aufgabe 4](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-04/aufgabe-04/Program.cs)
 - [Aufgabe 5](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-05/aufgabe-05/Program.cs)
 - [Aufgabe 6](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-06/aufgabe-06/Program.cs)
+- [Aufgabe 7](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-07/aufgabe-07/Program.cs)
+- [Aufgabe 8](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-08/aufgabe-08/Program.cs)
+- [Aufgabe 9a](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09a/aufgabe-09a/Program.cs)
 
 
