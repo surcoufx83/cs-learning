@@ -31,12 +31,13 @@ Hilfreiche Methoden:
 - Methode Console.ReadKey()
 
 ### Bearbeiten der Aufgabe
-1. Mach dir Gedanken, welche Schritte für die Aufgabenstellung erforderlich sind.
+1. Mach dir Gedanken, welche Schritte für die Aufgabenstellung erforderlich sind. Hast du
+noch Fragen dazu, ist etwas unklar?
 2. Schreibe dir die einzelnen Schritte auf ein Blatt Papier oder in ein Word-Dokument. 
 3. Sobald das erledigt ist, bespreche den Ablauf mit einem Coach oder anderen. Fehlt noch etwas?
 Wird das Ziel der Aufgabe damit erfüllt?
-5. Danach wird die Aufgabe entsprechend umgesetzt, bis die Aufgabe tatsächlich erfüllt ist.
-6. Nach einer Funktionsprüfung kann die nächste Aufgabe begonnen werden.
+4. Danach wird die Aufgabe entsprechend umgesetzt, bis die Aufgabe tatsächlich erfüllt ist.
+5. Nach einer Funktionsprüfung kann die nächste Aufgabe begonnen werden.
 
 ## Aufgabe 2
 Das bestehende Konsolenprogramm soll so verändert werden, dass der Benutzer nicht mehr 
@@ -54,10 +55,10 @@ Hilfreiche Methoden, Klassen, Objekte:
 - while-Schleifen, if-Bedingungen
 
 ### Bearbeiten der Aufgabe
-Ergänze die vorherige von dir geschriebene Ablaufliste um die notwendigen Änderungen, 
-bzw. ersetze nicht mehr benötigte Funktionen. Nach einer Diskussion dazu wird auch diese 
-Aufgabe im Quellcode umgesetzt und anschließend getestet. Danach kann die dritte 
-Aufgabe erledigt werden.
+Für alle Aufgaben gilt: Mach dir zuerst Gedanken. Was ist die Aufgabenstellung, habe ich 
+Fragen dazu? Nimm dir auch wieder die Zeit, den Ablauf auf Papier zu skizieren. Wenn
+alles klar ist, leg los, setze die Aufgabe um und nach der Funktionsprüfung gehts zur 
+nächsten Aufgabe.
 
 ## Aufgabe 3
 Das bestehende Konsolenprogramm soll nun so abgeändert werden, dass das Programm ein 
