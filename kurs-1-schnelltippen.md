@@ -125,6 +125,7 @@ Das Programm soll nun mitzählen:
 - wie viele Spiele bereits gespielt wurden ,
 - was die durchschnittliche Punktzahl aller Spiele (nicht nur der letzten 10) ist
 - wieviel % der Wörter bisher korrekt eingegeben wurden.
+
 Die Werte werden im Hauptmenü angezeigt. Es werden nur Spiele berücksichtigt, die vollständig 
 sind, also alle 10 Wörter eingegeben wurden und es ist irrelevant, ob etwas in die 
 Highscore-Liste eingetragen wurde oder nicht.
