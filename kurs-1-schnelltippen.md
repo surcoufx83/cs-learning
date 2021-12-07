@@ -25,6 +25,11 @@ eines Wortes bittet. Das Wort soll per Enter-Taste bestätigt werden. Nach der E
 Wort nochmal in der Konsole ausgegeben. Nach der nächsten durch den Anwender gedrückten Taste 
 beendet sich das Programm von allein.
 
+Hilfreiche Methoden:
+- Methode Console.WriteLine()
+- Methode Console.ReadLine()
+- Methode Console.ReadKey()
+
 ### Bearbeiten der Aufgabe
 1. Mach dir Gedanken, welche Schritte für die Aufgabenstellung erforderlich sind.
 2. Schreibe dir die einzelnen Schritte auf ein Blatt Papier oder in ein Word-Dokument. 
@@ -42,6 +47,11 @@ nicht als Wortende.
 
 (Ab hier gilt: Sollte in einer der folgenden Aufgaben von der Enter-Taste gesprochen werden,
 so sind auch die anderen Tasten bzw. Zeichen (Tab, Leertaste, ,.;:!?) gemeint.)
+
+Hilfreiche Methoden, Klassen, Objekte:
+- Klasse ConsoleKeyInfo
+- Arrays
+- while-Schleifen, if-Bedingungen
 
 ### Bearbeiten der Aufgabe
 Ergänze die vorherige von dir geschriebene Ablaufliste um die notwendigen Änderungen, 
@@ -67,10 +77,18 @@ wieder auf Richtigkeit geprüft (wie zuvor beim ersten Wort auch). Das Programm
 beendet sich nun erst, wenn der Benutzer das Wort "quit" oder nichts eingegeben 
 und mit der Enter-Taste bestätigt hat.
 
+Hilfreiche Methoden, Klassen, Objekte:
+- Klasse Random
+
 ## Aufgabe 6
 Das Programm soll so verändert werden: Das Programm stoppt nun die Zeit zwischen Eingabe 
 des ersten Zeichen des Wortes durch das Programm und dem Abschließen des Wortes. 
 Die benötigte Zeit in Sekunden und Millisekunden wird ebenfalls dem Benutzer angezeigt.
+
+Hilfreiche Methoden, Klassen, Objekte:
+- Klasse DateTime
+- Klasse TimeSpan
+- Methode Math.Round
 
 ## Aufgabe 7
 Das Programm soll so verändert werden: Nachdem der Benutzer ein Wort eingegeben hat, 
