@@ -74,12 +74,12 @@ Die benötigte Zeit in Sekunden und Millisekunden wird ebenfalls dem Benutzer an
 
 ## Aufgabe 7
 Das Programm soll so verändert werden: Nachdem der Benutzer ein Wort eingegeben hat, 
-wird ein Punktewert errechnet. Er erhält 100 Punkte, wenn er es ohne Fehler in genau 
-10 Sekunden eingegeben hat. Er erhält mehr Punkte wenn er schneller war, bzw. weniger, 
-wenn er langsamer war entsprechend: (sekunden - 3) * 15; wobei sekunden bedeutet sekunden 
-inkl. millisekunden als Nachkommastellen. Pro falsch eingegebenem Buchstaben werden 
-20 Punkte abgezogen. Die Punktzahl darf 0 nicht unterschreiten. Die Punkte werden 
-zusätzlich am Ende ausgegeben.
+wird ein Punktewert errechnet. Er erhält 100 Punkte, wenn er es ohne Fehler in einer vorgegebenen Zeit
+eingegeben hat. Die vorgegebene Zeit entspricht 1s pro Zeichen des erwarteten Wortes
+("Welt" = 4s, "in" = 2s). Er erhält mehr Punkte wenn er schneller war, bzw. weniger, 
+wenn er langsamer war entsprechend: (sekunden - wortlänge) * 15; wobei sekunden bedeutet sekunden 
+inkl. Nachkommastellen. Pro falsch eingegebenem Buchstaben werden 35 Punkte abgezogen. 
+Die Punktzahl darf 0 nicht unterschreiten. Die Punkte werden zusätzlich am Ende ausgegeben.
 
 ## Aufgabe 8
 Das Programm soll so verändert werden: Nach dem zehnten eingegebenen Wort wird die Summe 
