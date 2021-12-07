@@ -100,6 +100,9 @@ wenn er langsamer war entsprechend: (sekunden - wortlänge) * 15; wobei sekunden
 inkl. Nachkommastellen. Pro falsch eingegebenem Buchstaben werden 35 Punkte abgezogen. 
 Die Punktzahl darf 0 nicht unterschreiten. Die Punkte werden zusätzlich am Ende ausgegeben.
 
+Hilfreiche Methoden, Klassen, Objekte:
+- Methoden Math.Abs, Math.Min, Math.Max
+
 ## Aufgabe 8
 Das Programm soll so verändert werden: Zeit und Punkte pro Wort werden nicht 
 mehr angezeigt. Nach dem zehnten eingegebenen Wort wird die Summe der Punkte aller 10 
@@ -115,6 +118,13 @@ Benutzerverzeichnis abgelegt werden (z.B. %localappdata%\Schnelltippen\Highscore
 Ist die Datei beim Programmstart nicht vorhanden, soll sie erstellt werden. Die 
 Datei soll dann die Möglichkeit bereitstellen, 10 Einträge zu speichern. Das Datenformat
 bleibt dir überlassen. Es kann purer Text sein, könnte aber auch json oder csv sein.
+
+Hilfreiche Methoden, Klassen, Objekte:
+- Methoden Path.Combine, Environment.GetFolderPath
+- Enum/Aufzählung Environment.SpecialFolder
+- Klasse FileInfo
+- Methoden File.Exists, Directory.CreateDirectory, File.WriteAllText, File.ReadAllText
+- Klasse SortedList oder Arrays
 
 ## Aufgabe 9b
 Beendet der Spieler nun alle zehn Worte bekommt er (wie in Aufgabe 8 vorgebeben), seine
