@@ -103,8 +103,8 @@ Die Punktzahl darf 0 nicht unterschreiten. Die Punkte werden zusätzlich am Ende
 ## Aufgabe 8
 Das Programm soll so verändert werden: Zeit und Punkte pro Wort werden nicht 
 mehr angezeigt. Nach dem zehnten eingegebenen Wort wird die Summe der Punkte aller 10 
-Versuche ausgegeben. Danach beginnt ein neuer Durchlauf mit wieder 10 Worten (endlos,
-bis Spieler abbricht (quit/leere Eingabe) gem. Aufgabe 5).
+Versuche ausgegeben. Nachdem eine beliebige Taste gedrückt wurde, beginnt ein neuer Durchlauf 
+mit wieder 10 Worten (endlos, bis Spieler abbricht (quit/leere Eingabe) gem. Aufgabe 5).
 
 Zusätzlich soll ein Zähler vor dem einzugebenen Wort angezeigt werden, damit der Spieler
 weiß, wie viele Worte noch kommen, zum. Beispiel "[ 1/10] Bitte gib folgendes Wort ein: ...".
