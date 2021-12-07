@@ -109,15 +109,24 @@ enthält immer nur die besten zehn Ergebnisse. Existiert die Datei noch nicht, e
 sie ausschließlich 0-Punkte-Ergebnisse.
 
 ## Aufgabe 9
-Das Programm soll nun zu allererste ein Menü ausgeben. Als Optionen sollen dem Anwender 
+Das Programm soll nun zu allererst ein Menü ausgeben. Als Optionen sollen dem Anwender 
 die Optionen "Neues Spiel", "Highscores", "Beenden" zur Auswahl stehen. Bei Auswahl von 
-Neues Spiel beginnt das Spiel, bei Auswahl von Highscore wird die Liste der besten 
-Ergebnisse ausgegeben werden und beenden beendet das Programm. Nach einem Spiel (10 Wörter) 
+"Neues Spiel" beginnt das Spiel, bei Auswahl von "Highscores" wird die Liste der besten 
+Ergebnisse ausgegeben werden und "Beenden" beendet das Programm. Nach einem Spiel (10 Wörter) 
 wird anschließend wieder das Hauptmenü ausgegeben.
+Wie die Auswahl stattfindet bleibt dir überlassen. Eine einfache Möglichkeit ist jedem der
+Menüpunkte eine Zahl zuzuweisen (1-3) und wenn der Benutzer die entsprechende Taste drückt,
+wird die Aktion ausgeführt. Eine komplizierte Variante ist, dass der Anwender die Pfeiltasten 
+hoch und runter verwendet und damit einen Menüpunkt auswählt. 
 
 ## Aufgabe 10
-Das Programm soll nun mitzählen, wie viele Spiele bereits gespielt wurden. Der Zähler 
-wird im Hauptmenü angezeigt. Der Zähler wird nur für vollständige Spiele (10 Worte) erhöht. 
+Das Programm soll nun mitzählen:
+- wie viele Spiele bereits gespielt wurden ,
+- was die durchschnittliche Punktzahl aller Spiele (nicht nur der letzten 10) ist
+- wieviel % der Wörter bisher korrekt eingegeben wurden.
+Die Werte werden im Hauptmenü angezeigt. Es werden nur Spiele berücksichtigt, die vollständig 
+sind, also alle 10 Wörter eingegeben wurden und es ist irrelevant, ob etwas in die 
+Highscore-Liste eingetragen wurde oder nicht.
 
 
 # Beispiellösungen
