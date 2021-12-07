@@ -183,3 +183,4 @@ erhalten. Schau nicht in die Beispiele, wenn du noch nicht fertig bist.
 - [Aufgabe 9a](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09a/aufgabe-09a/Program.cs)
 - [Aufgabe 9b](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09b/aufgabe-09b/Program.cs)
 - [Aufgabe 10](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-10/aufgabe-10/Program.cs)
+- [Aufgabe 11](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-11/aufgabe-11/Program.cs)
