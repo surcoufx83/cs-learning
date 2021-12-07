@@ -106,6 +106,9 @@ mehr angezeigt. Nach dem zehnten eingegebenen Wort wird die Summe der Punkte all
 Versuche ausgegeben. Danach beginnt ein neuer Durchlauf mit wieder 10 Worten (endlos,
 bis Spieler abbricht (quit/leere Eingabe) gem. Aufgabe 5).
 
+Zusätzlich soll ein Zähler vor dem einzugebenen Wort angezeigt werden, damit der Spieler
+weiß, wie viele Worte noch kommen, zum. Beispiel "[ 1/10] Bitte gib folgendes Wort ein: ...".
+
 ## Aufgabe 9a
 Es soll nun einen Highscore-Liste eingeführt werden. Diese soll in einer Datei im 
 Benutzerverzeichnis abgelegt werden (z.B. %localappdata%\Schnelltippen\Highscore.txt).
