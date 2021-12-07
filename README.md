@@ -16,5 +16,5 @@ programmiert, welches klassisch in der Konsole läuft. Konsolenprogramme eignen 
 zum Lernen des Programmierens als Programme mit grafischer Anzeige. Bei letzteren wird
 sehr viel Code bereits durch das Visual Stuido erzeugt, welcher nicht erklärt wird.
 
-Für die Umsetzung dieses Kurses solltest Variablen deklarieren können, sowie if-Statements
-und while-Schleifen kennen.
+Für die Umsetzung dieses Kurses solltest Variablen deklarieren und Methoden aufrufen
+können, sowie if-Statements und while-Schleifen kennen.
