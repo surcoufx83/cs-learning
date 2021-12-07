@@ -178,5 +178,4 @@ erhalten. Schau nicht in die Beispiele, wenn du noch nicht fertig bist.
 - [Aufgabe 7](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-07/aufgabe-07/Program.cs)
 - [Aufgabe 8](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-08/aufgabe-08/Program.cs)
 - [Aufgabe 9a](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09a/aufgabe-09a/Program.cs)
-
-
+- [Aufgabe 9b](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09b/aufgabe-09b/Program.cs)
