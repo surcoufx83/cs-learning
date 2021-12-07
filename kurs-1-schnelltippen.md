@@ -145,7 +145,15 @@ wird anschließend wieder das Hauptmenü ausgegeben.
 Wie die Auswahl stattfindet bleibt dir überlassen. Eine einfache Möglichkeit ist jedem der
 Menüpunkte eine Zahl zuzuweisen (1-3) und wenn der Benutzer die entsprechende Taste drückt,
 wird die Aktion ausgeführt. Eine komplizierte Variante ist, dass der Anwender die Pfeiltasten 
-hoch und runter verwendet und damit einen Menüpunkt auswählt. 
+hoch und runter verwendet und damit einen Menüpunkt auswählt.
+
+Zusätzlich soll nun immer der Inhalt des Konsolenfensters gelöscht werden, wenn:
+1. das Hauptmenü aufgerufen wird,
+2. oder die Bestenliste angezeigt wird,
+3. oder im Spiel ein neues Wort angezeigt wird.
+
+Die Bestätigung ob ein Wort korrekt eingegeben wurde oder nicht kann damit entfallen.
+
 
 ## Aufgabe 11
 Das Programm soll nun mitzählen:
@@ -156,11 +164,6 @@ Das Programm soll nun mitzählen:
 Die Werte werden im Hauptmenü angezeigt. Es werden nur Spiele berücksichtigt, die vollständig 
 sind, also alle 10 Wörter eingegeben wurden und es ist irrelevant, ob etwas in die 
 Highscore-Liste eingetragen wurde oder nicht.
-
-## Aufgabe 12
-Das eingegebene Wort wird nun nicht mehr durch das Programm wiederholt. Stattdessen werden die
-falschen Buchstaben in der Benutzereingabe rot markiert. Ansonsten läuft das Programm so weiter
-wie bisher.
 
 ## Aufgabe x
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
@@ -179,3 +182,4 @@ erhalten. Schau nicht in die Beispiele, wenn du noch nicht fertig bist.
 - [Aufgabe 8](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-08/aufgabe-08/Program.cs)
 - [Aufgabe 9a](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09a/aufgabe-09a/Program.cs)
 - [Aufgabe 9b](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-09b/aufgabe-09b/Program.cs)
+- [Aufgabe 10](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-10/aufgabe-10/Program.cs)
