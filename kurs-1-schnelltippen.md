@@ -100,7 +100,8 @@ inkl. Nachkommastellen. Pro falsch eingegebenem Buchstaben werden 35 Punkte abge
 Die Punktzahl darf 0 nicht unterschreiten. Die Punkte werden zusätzlich am Ende ausgegeben.
 
 ## Aufgabe 8
-Das Programm soll so verändert werden: Nach dem zehnten eingegebenen Wort wird die Summe 
+Das Programm soll so verändert werden: Zeit und Punkte pro Wort werden nicht 
+mehr angezeigt. Nach dem zehnten eingegebenen Wort wird die Summe 
 der Punkte aller 10 Versuche ausgegeben. Diese Punkte werden mit einer Highscore-Liste 
 abgeglichen, welche in einer Datei im Benutzer-Verzeichnis abgelegt wird. Dabei wird 
 direkt geprüft, an welcher Stelle er gelandet ist. Er erhält nun auch die Möglichkeit, 
@@ -128,6 +129,13 @@ Die Werte werden im Hauptmenü angezeigt. Es werden nur Spiele berücksichtigt, 
 sind, also alle 10 Wörter eingegeben wurden und es ist irrelevant, ob etwas in die 
 Highscore-Liste eingetragen wurde oder nicht.
 
+## Aufgabe 11
+Das eingegebene Wort wird nun nicht mehr durch das Programm wiederholt. Stattdessen werden die
+falschen Buchstaben in der Benutzereingabe rot markiert. Ansonsten läuft das Programm so weiter
+wie bisher.
+
+## Aufgabe x
+Was fällt dir noch so ein? Was gehört hier noch mit rein?
 
 # Beispiellösungen
 - [Aufgabe 1](https://github.com/surcoufx83/cs-learning/blob/stefan/aufgabe-01/aufgabe-01/Program.cs)
