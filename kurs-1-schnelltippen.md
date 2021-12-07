@@ -116,8 +116,9 @@ weiß, wie viele Worte noch kommen, zum. Beispiel "[ 1/10] Bitte gib folgendes W
 Es soll nun einen Highscore-Liste eingeführt werden. Diese soll in einer Datei im 
 Benutzerverzeichnis abgelegt werden (z.B. %localappdata%\Schnelltippen\Highscore.txt).
 Ist die Datei beim Programmstart nicht vorhanden, soll sie erstellt werden. Die 
-Datei soll dann die Möglichkeit bereitstellen, 10 Einträge zu speichern. Das Datenformat
-bleibt dir überlassen. Es kann purer Text sein, könnte aber auch json oder csv sein.
+Datei soll dann die Möglichkeit bereitstellen, 10 Einträge bestehend aus Punktzahl und
+Namen zu speichern. Das Datenformat bleibt dir überlassen. Es kann purer Text sein, 
+könnte aber auch json oder csv sein.
 
 Hilfreiche Methoden, Klassen, Objekte:
 - Methoden Path.Combine, Environment.GetFolderPath
@@ -130,9 +131,10 @@ Hilfreiche Methoden, Klassen, Objekte:
 Beendet der Spieler nun alle zehn Worte bekommt er (wie in Aufgabe 8 vorgebeben), seine
 Gesamtpunktzahl angezeigt. Zusätzlich soll nun angezeigt werden, welchen Platz er damit in 
 der Highscore-Liste erreicht. Er kann nun mit "j" oder "ja" sich in die Highscore eintragen
-oder mit allem anderen ein neues Spiel beginnen. Eintragen in die Highscores darf nicht
-möglich sein, wenn er nicht unter den ersten zehn gelandet ist. Es werden immer nur die
-zehn Besten gespeichert.
+oder mit allem anderen ein neues Spiel beginnen. Soll er eingetragen werden, so muss er noch
+einen Namen angeben, der zusammen mit der Punktzahl gespeichert wird. Eintragen in die 
+Highscores darf nicht möglich sein, wenn er nicht unter den ersten zehn gelandet ist. 
+Es werden immer nur die zehn Besten gespeichert.
 
 ## Aufgabe 10
 Das Programm soll nun zu allererst ein Menü ausgeben. Als Optionen sollen dem Anwender 
