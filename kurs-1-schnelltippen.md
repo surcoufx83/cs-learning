@@ -103,14 +103,24 @@ Die Punktzahl darf 0 nicht unterschreiten. Die Punkte werden zusätzlich am Ende
 ## Aufgabe 8
 Das Programm soll so verändert werden: Zeit und Punkte pro Wort werden nicht 
 mehr angezeigt. Nach dem zehnten eingegebenen Wort wird die Summe 
-der Punkte aller 10 Versuche ausgegeben. Diese Punkte werden mit einer Highscore-Liste 
-abgeglichen, welche in einer Datei im Benutzer-Verzeichnis abgelegt wird. Dabei wird 
-direkt geprüft, an welcher Stelle er gelandet ist. Er erhält nun auch die Möglichkeit, 
-sich in diese Highscore-Liste mit selbst gewähltem Namen einzutragen. Die Highscore-Liste 
-enthält immer nur die besten zehn Ergebnisse. Existiert die Datei noch nicht, enthält 
-sie ausschließlich 0-Punkte-Ergebnisse.
+der Punkte aller 10 Versuche ausgegeben.
 
-## Aufgabe 9
+## Aufgabe 9a
+Es soll nun einen Highscore-Liste eingeführt werden. Diese soll in einer Datei im 
+Benutzerverzeichnis abgelegt werden (z.B. %localappdata%\Schnelltippen\Highscore.txt).
+Ist die Datei beim Programmstart nicht vorhanden, soll sie erstellt werden. Die 
+Datei soll dann die Möglichkeit bereitstellen, 10 Einträge zu speichern. Das Datenformat
+bleibt dir überlassen. Es kann purer Text sein, könnte aber auch json oder csv sein.
+
+## Aufgabe 9b
+Beendet der Spieler nun alle zehn Worte bekommt er (wie in Aufgabe 8 vorgebeben), seine
+Gesamtpunktzahl angezeigt. Zusätzlich soll nun angezeigt werden, welchen Platz er damit in 
+der Highscore-Liste erreicht. Er kann nun mit "j" oder "ja" sich in die Highscore eintragen
+oder mit allem anderen ein neues Spiel beginnen. Eintragen in die Highscores darf nicht
+möglich sein, wenn er nicht unter den ersten zehn gelandet ist. Es werden immer nur die
+zehn Besten gespeichert.
+
+## Aufgabe 10
 Das Programm soll nun zu allererst ein Menü ausgeben. Als Optionen sollen dem Anwender 
 die Optionen "Neues Spiel", "Highscores", "Beenden" zur Auswahl stehen. Bei Auswahl von 
 "Neues Spiel" beginnt das Spiel, bei Auswahl von "Highscores" wird die Liste der besten 
@@ -121,7 +131,7 @@ Menüpunkte eine Zahl zuzuweisen (1-3) und wenn der Benutzer die entsprechende T
 wird die Aktion ausgeführt. Eine komplizierte Variante ist, dass der Anwender die Pfeiltasten 
 hoch und runter verwendet und damit einen Menüpunkt auswählt. 
 
-## Aufgabe 10
+## Aufgabe 11
 Das Programm soll nun mitzählen:
 - wie viele Spiele bereits gespielt wurden ,
 - was die durchschnittliche Punktzahl aller Spiele (nicht nur der letzten 10) ist
@@ -131,7 +141,7 @@ Die Werte werden im Hauptmenü angezeigt. Es werden nur Spiele berücksichtigt, 
 sind, also alle 10 Wörter eingegeben wurden und es ist irrelevant, ob etwas in die 
 Highscore-Liste eingetragen wurde oder nicht.
 
-## Aufgabe 11
+## Aufgabe 12
 Das eingegebene Wort wird nun nicht mehr durch das Programm wiederholt. Stattdessen werden die
 falschen Buchstaben in der Benutzereingabe rot markiert. Ansonsten läuft das Programm so weiter
 wie bisher.
