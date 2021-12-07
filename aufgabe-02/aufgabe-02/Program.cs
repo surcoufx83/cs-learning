@@ -26,7 +26,10 @@ namespace aufgabe_02
             while (!breakkeys.Contains(keyInfo.Key) && !breakchars.Contains(keyInfo.KeyChar))
             {
                 if (keyInfo.Key == ConsoleKey.Backspace)
+                {
+                    Console.Write(" \b");
                     word = word.Substring(0, word.Length - 1);
+                }
                 else
                     word += keyInfo.KeyChar;
                 keyInfo = Console.ReadKey();
