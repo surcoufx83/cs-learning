@@ -171,6 +171,19 @@ Wörter aufgelistet und darin werden farblich die richtigen und falschen Buchsta
 grüne Buchstaben für richtige und rote für falsch eingegebene. Jeweils hinter den Wörtern wird
 die benötigte Zeit, die Anzahl der Fehler und die errechnete Punktzahl angezeigt.
 
+## Aufgabe 13a
+Die zehn Worte sollen nun nicht mehr nacheinander angezeigt werden, sondern alle auf einmal 
+(per Leerzeichen getrennt). Jede Eingabe eines der Trennzeichen (Enter, Tab, Leertaste, ,.;:!?) 
+wird als abgeschlossenes Wort gewertet, der Bildschirm wird aber nicht mehr gelöscht.
+Zum Beispiel:
+"Bitte gib ein: aaaa bb cccc ddd eee fffffff ggg hhhh iiii jjjjjj"
+
+Nach Abschluss des zehnten Wortes wird der Bildschirm gelöscht und das Ergebnis angezeigt.
+
+## Aufgabe 13b
+Nach jedem eingegebenen Buchstaben durch den Benutzer wird nun die entsprechende Position 
+der einzugebenen Worte grün oder rot markiert, je nachdem ob richtig oder falsch eingegeben.
+
 ## Aufgabe x
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
 
