@@ -119,6 +119,13 @@ Ist die Datei beim Programmstart nicht vorhanden, soll sie erstellt werden. Die
 Datei soll dann die Möglichkeit bereitstellen, 10 Einträge bestehend aus Punktzahl und
 Namen zu speichern. Das Datenformat bleibt dir überlassen. Es kann purer Text sein, 
 könnte aber auch json oder csv sein.
+Todos für diese Aufgabe:
+1. Beim Start des Programms wird eine Datei `Highscore.txt` im Ordner `%localappdata%\Schnelltippen`
+   erstellt, sofern sie noch nicht existiert.
+2. Beim Neuerstellen der Datei werden 10 Einträge mit 0 Punkten und ohne Namen
+   angelegt.
+3. Existiert die Datei bereits, oder wurde sie neu erstellt, wird die Datei eingelesen
+   und die 10 Platzierungen werden in ein Array oder eine Liste geladen.
 
 Hilfreiche Methoden, Klassen, Objekte:
 - Methoden Path.Combine, Environment.GetFolderPath
@@ -163,7 +170,9 @@ Das Programm soll nun mitzählen:
 
 Die Werte werden im Hauptmenü angezeigt. Es werden nur Spiele berücksichtigt, die vollständig 
 sind, also alle 10 Wörter eingegeben wurden und es ist irrelevant, ob etwas in die 
-Highscore-Liste eingetragen wurde oder nicht.
+Highscore-Liste eingetragen wurde oder nicht. Wie die Werte gespeichert werden, bleibt dir
+überlassen. Du kannst dafür die `Highscore.txt` verwenden, eine andere Datei oder einen 
+ganz anderen Weg.
 
 ## Aufgabe 12
 Nach Abschluss des zehnten Wortes, bevor die Punktzahl angezeigt wird, werden die zehn eingegebenen
