@@ -180,6 +180,11 @@ Wörter aufgelistet und darin werden farblich die richtigen und falschen Buchsta
 grüne Buchstaben für richtige und rote für falsch eingegebene. Jeweils hinter den Wörtern wird
 die benötigte Zeit, die Anzahl der Fehler und die errechnete Punktzahl angezeigt.
 
+## Aufgabe 13
+Gruppiere die Beispielwörter nach Länge (<5 Buchstaben, <9 Buchstaben, <12 Buchstaben, >= 12Buchstaben).
+Bei der zufälligen Auswahl ist nun zu bedenken: Pro Spiel (10 Worte) nur noch: 3x <5, 3x <9, 2x <12, 1x >=12
+um eine bessere Vergleichbarkeit zu gewährleisten. Kein Wort darf doppelt abgefragt werden.
+
 ## Aufgabe x
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
 
