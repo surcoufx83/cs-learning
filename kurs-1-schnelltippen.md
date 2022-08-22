@@ -185,6 +185,9 @@ Gruppiere die Beispielwörter nach Länge (<5 Buchstaben, <9 Buchstaben, <12 Buc
 Bei der zufälligen Auswahl ist nun zu bedenken: Pro Spiel (10 Worte) nur noch: 3x <5, 3x <9, 2x <12, 1x >=12
 um eine bessere Vergleichbarkeit zu gewährleisten. Kein Wort darf doppelt abgefragt werden.
 
+## Aufgabe 14
+Erzeuge basierend auf der Unterscheidung von Aufgabe 13 eine Datenbankdatei (in einem beliebigen Format). Befülle die Datei mit beliebig vielen Wörtern (zum Beispiel die 100 Beispielwörter). Statt aus dem bisherigen Array soll die Datenbank (eigene Klasse) ein Wort zurückliefern welches den Kriterien (wieder gem. Aufgabe 13) entspricht. Es sollen insgesamt genau 5 Worte mit Großbuchstabe am Anfang gewählt werden, 5 die mit Kleinbuchstaben beginnen.
+
 ## Aufgabe x
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
 
