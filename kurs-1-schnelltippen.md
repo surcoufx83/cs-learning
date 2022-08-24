@@ -188,6 +188,9 @@ um eine bessere Vergleichbarkeit zu gewährleisten. Kein Wort darf doppelt abgef
 ## Aufgabe 14
 Erzeuge basierend auf der Unterscheidung von Aufgabe 13 eine Datenbankdatei (in einem beliebigen Format). Befülle die Datei mit beliebig vielen Wörtern (zum Beispiel die 100 Beispielwörter). Statt aus dem bisherigen Array soll die Datenbank (eigene Klasse) ein Wort zurückliefern welches den Kriterien (wieder gem. Aufgabe 13) entspricht. Es sollen insgesamt genau 5 Worte mit Großbuchstabe am Anfang gewählt werden, 5 die mit Kleinbuchstaben beginnen.
 
+## Aufgabe 15
+Erzeuge einen neuen Hauptmenü-Eintrag "Modus Blinde Kuh". Der Eintrag startet auch ein neues Spiel. Es werden nur noch Worte mit mindestens 5 Buchstaben ausgewählt. Pro 3 Buchstaben ist ein Buchstabe durch ein ? maskiert, das heißt der User sieht nicht, welcher Buchstabe erwartet wird, er muss diesen korrekt erraten. Für jedes korrekt erratene ? gibt es 25 extra Punkte, Fehler führen zu Punktabzug von 35 Punkten. Spiele in diesem Modus erhalten eine Markierung (deiner Wahl) in der Highscore-Tabelle, sodass klar ist, dass es sich um diesen Spielmodus handelt.
+
 ## Aufgabe x
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
 
