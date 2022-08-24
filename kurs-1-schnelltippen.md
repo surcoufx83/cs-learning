@@ -192,7 +192,7 @@ Erzeuge basierend auf der Unterscheidung von Aufgabe 13 eine Datenbankdatei (in 
 Erzeuge einen neuen Hauptmenü-Eintrag: "Neues Wort in Datenbank". Wählt der Anwender diesen, so wird er aufgefordert ein Wort einzugeben. Sofern das Wort nicht in der Datenbank steht: Die Eingabe wird nochmal als Text in die Konsole ausgegeben und der Anwender soll bestätigen, dass dieses Wort in die Datenbank aufgenommen wird. Sofern er es bestätigt, wird die Datenbank um dieses neue Wort ergänzt und die entsprechende Datei im Dateisystem aktualisiert.
 
 ## Aufgabe 16
-Erzeuge einen neuen Hauptmenü-Eintrag "Modus Blinde Kuh". Der Eintrag startet auch ein neues Spiel. Es werden nur noch Worte mit mindestens 5 Buchstaben ausgewählt. Pro 3 Buchstaben ist ein Buchstabe durch ein ? maskiert, das heißt der User sieht nicht, welcher Buchstabe erwartet wird, er muss diesen korrekt erraten. Für jedes korrekt erratene ? gibt es 25 extra Punkte, Fehler führen zu Punktabzug von 35 Punkten. Spiele in diesem Modus erhalten eine Markierung (deiner Wahl) in der Highscore-Tabelle, sodass klar ist, dass es sich um diesen Spielmodus handelt.
+Erzeuge einen neuen Hauptmenü-Eintrag "Modus Blinde Kuh". Der Eintrag startet auch ein neues Spiel. Pro 3 Buchstaben ist ein Buchstabe durch ein ? maskiert, das heißt der User sieht nicht, welcher Buchstabe erwartet wird, er muss diesen korrekt erraten. Für jedes korrekt erratene ? gibt es 25 extra Punkte, Fehler führen zu Punktabzug von 35 Punkten. Spiele in diesem Modus erhalten eine Markierung (deiner Wahl) in der Highscore-Tabelle, sodass klar ist, dass es sich um diesen Spielmodus handelt.
 
 ## Aufgabe x
 Was fällt dir noch so ein? Was gehört hier noch mit rein?
